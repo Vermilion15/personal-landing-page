@@ -7,8 +7,17 @@ function submitForm(e){
     const subject = document.getElementById("inpt-subject");
     const message = document.getElementById("inpt-message");
 
-    if(!name.value || !email.value || !number.value || !subject.value || !message.value){
-        alert("Please fulfilled the field");
+
+    if(!name.value){
+        alert("Please enter your name");
+    }else if(!email.value){
+        alert("Please enter your email address");
+    }else if(!number.value){
+        alert("Please enter phone number");
+    }else if(!subject.value){
+        alert("Please enter subject");
+    }else if(!message.value){
+        alert("Please enter message");
     }else{
         alert("Your Message has  been SuccessFully Send");
         name.value = "";
