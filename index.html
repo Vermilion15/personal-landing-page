@@ -92,28 +92,28 @@
       <h1>Contact</h1>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
       <div class="contact-container">
-          <form action="">
+          <form action="" onsubmit="submitForm(event)">
             <h1 class="header-contact">Tell us your problem</h1>
             <div class="form-grup">
               <div class="input-grup" id="input-name">
                 <label for=""">Name</label>
-                <input type="text">
+                <input type="text" id="inpt-name">
               </div>
               <div class="input-grup" id="input-subject">
                 <label for=""">Your subject</label>
-                <input type="text">
+                <input type="text" id="inpt-subject">
               </div>
               <div class="input-grup" id="input-email">
                 <label for=""">Email</label>
-                <input type="email">
+                <input type="email" id="inpt-email">
               </div>
               <div class="input-grup" id="input-phone">
                 <label for=""">Phone Number</label>
-                <input type="tel">
+                <input type="tel" id="inpt-num">
               </div>
               <div class="input-grup" id="input-message">
                 <label for=""">Message</label>
-                <input type="text">
+                <input type="text" id="inpt-message">
               </div>
             </div>
             <button class="btn btn-submit">Submit</button>
@@ -131,9 +131,12 @@
       </div>
       <div class="social-hub">
         <a href=""><img src="images/Twitter.svg" alt="twitter"></a>
-        <a href=""></a><img src="images/Facebook.svg" alt="facebook"></a>
-        <a href=""></a><img src="images/Instagram.svg" alt="ig"></a>
+        <a href=""><img src="images/Facebook.svg" alt="facebook"></a>
+        <a href=""><img src="images/Instagram.svg" alt="ig"></a>
+        <a href=""><img src="images/github.svg" alt="github"></a>
       </div>
     </footer>
+
+    <script src="main.js"></script>
   </body>
 </html>

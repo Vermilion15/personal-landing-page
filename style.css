@@ -373,4 +373,52 @@ footer > div > p {
         width: 100%;
     }
 }
+@media only screen and (max-width : 830px) {
+    #header , #footer{
+        padding: 16px 32px;
+    }
+
+    #about > div > img{
+        padding: 150px;
+    }
+
+    section{
+        padding: 64px 32px;
+    }
+
+    #landing{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #landing div{
+        width: 100%;
+    }
+
+    #about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about > div{
+        width: 100%;
+    }
+
+    .service-detail{
+        gap: 16px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        row-gap: 35px;
+    }
+
+    .contact-container > form, .contact-container > div{
+        width: 100%;
+    }
+}
 
