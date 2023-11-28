@@ -8,18 +8,10 @@ function submitForm(e){
     const message = document.getElementById("inpt-message");
 
 
-    if(!name.value){
-        alert("Please enter your name");
-    }else if(!email.value){
-        alert("Please enter your email address");
-    }else if(!number.value){
-        alert("Please enter phone number");
-    }else if(!subject.value){
-        alert("Please enter subject");
-    }else if(!message.value){
-        alert("Please enter message");
-    }else{
-        alert("Your Message has  been SuccessFully Send");
+    if(!name.value && !email.value && !number.value && !subject.value && !message.value){
+        alert("Form must be filled in");
+    } else{
+        alert("Your Message has been successfully send!");
         name.value = "";
         email.value = "";
         number.value = "";
