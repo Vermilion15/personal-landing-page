@@ -3,7 +3,7 @@ function submitForm(e){
 
     const name = document.getElementById("inpt-name");
     const email = document.getElementById("inpt-email");
-    const number = document.getElementById("inpt-number");
+    const number = document.getElementById("inpt-num");
     const subject = document.getElementById("inpt-subject");
     const message = document.getElementById("inpt-message");
 
