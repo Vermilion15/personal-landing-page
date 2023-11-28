@@ -8,7 +8,7 @@ function submitForm(e){
     const message = document.getElementById("inpt-message");
 
 
-    if(!name.value && !email.value && !number.value && !subject.value && !message.value){
+    if(!name.value || !email.value || !number.value ||!subject.value ||!message.value){
         alert("Form must be filled in");
     } else{
         alert("Your Message has been successfully send!");
